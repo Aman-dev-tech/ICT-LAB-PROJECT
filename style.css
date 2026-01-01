@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #eef2f3, #d9e4f5);
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(to right, #0a192f, #1f4068);
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 42px;
+}
+
+header sub {
+    font-size: 18px;
+    color: #ffcc00;
+}
+
+/* MAIN CONTAINER */
+.container {
+    width: 90%;
+    margin: 40px auto;
+}
+
+/* HEADING BOX */
+/* ABOUT SECTION – PROFESSIONAL FIX */
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px; /* reduced space */
+}
+
+.about-text {
+    width: 65%;
+}
+
+.about-text p {
+    line-height: 1.6;
+    font-size: 16px;
+    margin-top: 8px; /* less gap */
+}
+
+.about-image {
+    width: 30%;
+    text-align: right;
+}
+
+.about-image img {
+    width: 400px;
+    height: 260px;
+    border-radius: 10px;
+    border: 4px solid #1f4068;
+}
+.heading-box {
+    background: #1f4068;
+    color: white;
+    padding: 8px 18px;
+    display: inline-block;
+    border-radius: 8px;
+    margin-bottom: 6px; /* reduced */
+}
+/* ABOUT SECTION */
+/* ABOUT SECTION – PROFESSIONAL FIX */
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px; /* reduced space */
+}
+
+.about-text {
+    width: 100%;
+}
+
+.about-text p {
+    line-height: 1.6;
+    font-size: 16px;
+    margin-top: 8px; /* less gap */
+}
+
+.about-image {
+    width: 40%;
+    text-align: right;
+}
+
+.about-image img {
+    width: 260px;
+    height: 260px;
+    border-radius: 15px;
+    border: 4px solid #1f4068;
+}
+
+/* SKILLS */
+.skills {
+    margin-top: 50px;
+}
+
+.skill-boxes {
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.skill {
+    width: 220px;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    color: white;
+}
+
+.skill:nth-child(1) { background: #ff5722; }
+.skill:nth-child(2) { background: #009688; }
+.skill:nth-child(3) { background: #3f51b5; }
+
+/* SYLLABUS LINKS */
+.syllabus {
+    margin-top: 50px;
+}
+
+.syllabus a {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.syllabus a:nth-child(2) { color: #e91e63; }
+.syllabus a:nth-child(3) { color: #009688; }
+.syllabus a:nth-child(4) { color: #3f51b5; }
+.syllabus a:nth-child(5) { color: #ff9800; }
+
+/* REGISTER BUTTON */
+.register {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.register a {
+    background: #1f4068;
+    color: white;
+    padding: 15px 35px;
+    font-size: 18px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.register a:hover {
+    background: #ff5722;
+}
+
+/* CONTENT PAGES */
+.content {
+    margin-top: 30px;
+}
+
+.content h2 {
+    display: inline-block;   /* ⭐ KEY FIX */
+    background: #1f4068;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.content p {
+    margin: 6px 0 14px 8px; /* less vertical space */
+    line-height: 1.6;
+}
+
+/* FORM */
+form {
+    background: white;
+    padding: 30px;
+    max-width: 450px;
+    margin: 40px auto;
+    border-radius: 15px;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background: #1f4068;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
